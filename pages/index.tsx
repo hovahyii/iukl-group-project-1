@@ -109,7 +109,7 @@ export default function Main() {
 							Architecture, Biotechnology, Information Technology and many more.
 						</p>
 					</section>
-					<section className="my-14  sm:mx-0 mx-auto">
+					<section className="max-w py-4 px-8 bg-white  mb-10">
 						<h1 className="text-3xl font-bold text-gray-600 mb-10">
 							Level Of Study
 						</h1>
@@ -152,7 +152,8 @@ export default function Main() {
 							</div>
 						</div>
 					</section>
-					<section className="w-full sm:mx-0 mx-auto bg-gray-100 border-2 rounded-md">
+
+					<section className="max-w  sm:mx-0 mx-auto bg-gray-100 border-2 rounded-md">
 						<div className=" mx-auto w-full  sm:px-6 lg:px-8">
 							<div className="mt-8 overflow-hidden">
 								<div className="grid grid-cols-1 md:grid-cols-2">
