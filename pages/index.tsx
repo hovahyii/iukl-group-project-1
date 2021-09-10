@@ -386,7 +386,7 @@ export default function Main() {
 						</div>
 					</div>
 				</footer>
-				<nav className="md:hidden p-2 fixed bottom-0 w-full border bg-white flex overflow-x-auto">
+				<nav className="md:hidden p-2 fixed bottom-0 w-full border bg-white flex ">
 					<a
 						href="."
 						className="flex flex-col flex-grow items-center justify-center
