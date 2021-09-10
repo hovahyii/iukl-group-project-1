@@ -243,9 +243,7 @@ export default function Main() {
 
 									<form className="p-6 flex flex-col justify-center">
 										<div className="flex flex-col">
-											<label className="hidden">
-												Full Name
-											</label>
+											<label className="hidden">Full Name</label>
 											<input
 												type="name"
 												name="name"
@@ -256,9 +254,7 @@ export default function Main() {
 										</div>
 
 										<div className="flex flex-col mt-2">
-											<label className="hidden">
-												Email
-											</label>
+											<label className="hidden">Email</label>
 											<input
 												type="email"
 												name="email"
@@ -269,9 +265,7 @@ export default function Main() {
 										</div>
 
 										<div className="flex flex-col mt-2">
-											<label  className="hidden">
-												Number
-											</label>
+											<label className="hidden">Number</label>
 											<input
 												type="tel"
 												name="tel"
@@ -282,9 +276,7 @@ export default function Main() {
 										</div>
 
 										<div className="flex flex-col mt-2">
-											<label  className="hidden">
-												Message
-											</label>
+											<label className="hidden">Message</label>
 											<textarea
 												name="tel"
 												id="tel"
@@ -433,6 +425,21 @@ export default function Main() {
 						></i>
 
 						<span className=" text-sm capitalize">Contact</span>
+					</a>
+					<a
+						href="."
+						className="flex flex-col flex-grow items-center justify-center
+		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
+		ease-in-out hover:bg-gray-200 focus:text-orange-500"
+					>
+						<i
+							className="fa fa-sign-in	
+
+	fa-2x"
+							aria-hidden="true"
+						></i>
+
+						<span className=" text-sm capitalize">Login</span>
 					</a>
 				</nav>
 			</body>
