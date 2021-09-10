@@ -21,7 +21,7 @@ export default function Main() {
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</Head>
-			<body className="bg-white relative">
+			<body className="bg-white relative overflow-x-hidden">
 				<header>
 					<nav className="p-6">
 						<div className="flex justify-between items-center">
