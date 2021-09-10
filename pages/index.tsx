@@ -21,7 +21,7 @@ export default function Main() {
 				/>
 				<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 			</Head>
-			<body className="bg-white">
+			<body className="bg-white relative">
 				<header>
 					<nav className="p-6">
 						<div className="flex justify-between items-center">
